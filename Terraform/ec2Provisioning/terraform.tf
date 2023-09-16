@@ -1,8 +1,9 @@
 terraform {
   
   cloud {
+    organization = "DevOpsmastery"
     workspaces {
-      name = "DevOpsMastery"
+      tags = ["DevOpsMastery"]
     }
   }
 
