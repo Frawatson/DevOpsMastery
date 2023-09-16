@@ -1,11 +1,11 @@
 terraform {
   
-  cloud {
-    organization = "DevOpsmastery"
-    workspaces {
-      tags = ["DevOpsMastery"]
-    }
-  }
+  #cloud {
+    #organization = "DevOpsmastery"
+    #workspaces {
+      #tags = ["DevOpsMastery"]
+    #}
+  #}
 
   required_providers {
     aws = {
